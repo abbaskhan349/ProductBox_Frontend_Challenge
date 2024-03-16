@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Items from './Items';
-import Checkout from './Checkout';
-import AddItem from './AddItem';
+import Items from './components/Items';
+import Checkout from './components/Checkout';
+import AddItem from './components/AddItem';
 import Navigation from './components/Navigation';
 import Home from './components/Home';
 
